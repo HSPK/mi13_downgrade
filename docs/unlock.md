@@ -149,6 +149,8 @@ fastboot %* flash partition:5 %~dp0images/gpt_both5.bin || @echo "Flash gpt_both
 > [!WARNING]
 > GPT 分区表重写是**高风险操作**。`gpt_both0~5.bin` 文件必须与设备型号严格匹配，否则将导致硬砖。
 
+保存修改后的 `flash_all.bat` 文件。
+
 #### 11. 运行修改后的刷写脚本
 
 在命令行中运行修改后的 `flash_all.bat`，等待刷写完成。
